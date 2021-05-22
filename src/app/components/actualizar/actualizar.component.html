@@ -1,0 +1,31 @@
+<div class="caja">
+    <form action="/Visualizar" method="GET" id="formulario" >
+        <ul>
+            <li>
+                <label for="titulo" id="titulo">Titulo<br></label>
+                <input type="text" placeholder="Nombre de la nota" id="InputTitulo" required maxlength="15" >
+            </li>
+            
+            <li>
+                <label for="estado" id="estado">Estado<br></label>
+                <select id="InputEstado" required>
+                    <option value="">Seleccione 1 opción</option>
+                    <option value="1">Abierto</option>
+                    <option value="2">En Proceso</option>
+                    <option value="3">Cerrado</option>
+                  </select>
+            </li>
+            
+            <li>
+                <label for="descripcion" id="descripcion">Descripcion<br></label>
+                <textarea type="text" placeholder="Descripcion de la nota" id="InputDescripcion" required maxlength="150"></textarea>
+            </li>
+            
+            <li>
+                <div class="boton">
+                    <button type="submit" id="actualizar">Actualizar</button>
+                </div>
+            </li>
+        </ul>
+    </form>
+</div>

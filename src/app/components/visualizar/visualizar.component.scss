@@ -1,0 +1,68 @@
+.CajaMayor{
+    height: 30em;
+    margin-top: 1em;
+}
+.separacion{
+    width: 30%;
+    height: 25em;
+    float: left;
+    margin-left: 1em;
+    margin-top: 1em;
+}
+
+li{
+    list-style: none;
+}
+
+.notas1{
+    border: solid;
+    border-width: 0.05em;
+    width: 90%;
+    height: 2.5em;
+    margin: 1em;
+    background-color: rgba(250, 63, 63, 0.616);
+}
+
+.notas2{
+    border: solid;
+    border-width: 0.05em;
+    width: 90%;
+    height: 2.5em;
+    margin: 1em;
+    background-color: rgba(0, 128, 0, 0.322);
+}
+
+.notas3{
+    border: solid;
+    border-width: 0.05em;
+    width: 90%;
+    height: 2.5em;
+    margin: 1em;
+    background-color: rgba(0, 0, 255, 0.459);
+}
+
+.eliminar{
+    float: right;
+    padding: 0.5em;
+    margin-top: -2.3em;
+    margin-right: 0.5em;
+}
+
+.mensaje{
+    float:left;
+    margin-top: -1em;
+    margin-left: 1em;
+    font-size: 1.2em;
+    width: 20%;
+}
+
+footer{
+    text-align: center;
+}
+
+button{
+    padding: 0.4em;
+    width: 25em;
+    margin-left:-6%;
+}
+
